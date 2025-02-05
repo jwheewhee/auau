@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>QUIZ_H1w</title>
+  <title>CGV 퀴즈 앱</title>
   <style>
     body {
       margin: 0;
@@ -46,7 +46,7 @@
       text-align: center;
     }
     .quiz-container h1 {
-      font-size: 24px;
+      font-size: 22px;
       color: white;
     }
     .answer-button {
@@ -59,17 +59,19 @@
       cursor: pointer;
       border-radius: 5px;
       font-size: 22px;
+      background: transparent; /* Remove black background */
     }
     .result-message {
       font-size: 24px;
       margin-top: 20px;
-      white-space: pre-wrap; /* Allows text to wrap at "/" */
+      color: black; /* Change text color to black */
+      white-space: pre-wrap;
     }
     .restart-button {
       background-color: #FFFFE9;
       color: black;
       position: absolute;
-      bottom: 20px;
+      bottom: 40px; /* Move button further down */
       left: 50%;
       transform: translateX(-50%);
       padding: 15px 30px;
